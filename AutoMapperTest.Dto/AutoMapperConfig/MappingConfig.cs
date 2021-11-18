@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapperTest.Domain;
 
 namespace AutoMapperTest.Dto.AutoMapperConfig
 {
@@ -9,8 +10,11 @@ namespace AutoMapperTest.Dto.AutoMapperConfig
         {
             return new MapperConfiguration(cfg =>
             {
-                
-
+                cfg.CreateMap<MapToHospitalDto, HospitalDto>();
+                cfg.CreateMap<MapToHospitalDto, PatientDto>();
+                cfg.CreateMap<Room, RoomDto>()
+                    .ForMember(x => x.Name, 
+                        opt => opt.MapFrom(room => $"{room.Floor} - ${room.Name}"));
             });
         }
         
