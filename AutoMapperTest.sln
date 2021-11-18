@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest", "AutoMapperTest\AutoMapperTest.csproj", "{B43850D1-3687-466F-8539-C4AA6085D22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.Domain", "AutoMapperTest.Domain\AutoMapperTest.Domain.csproj", "{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.Dto", "AutoMapperTest.Dto\AutoMapperTest.Dto.csproj", "{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.Test", "AutoMapperTest.Test\AutoMapperTest.Test.csproj", "{209E6A53-FF24-42BF-ACFF-9891C6422853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B43850D1-3687-466F-8539-C4AA6085D22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43850D1-3687-466F-8539-C4AA6085D22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43850D1-3687-466F-8539-C4AA6085D22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43850D1-3687-466F-8539-C4AA6085D22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209E6A53-FF24-42BF-ACFF-9891C6422853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209E6A53-FF24-42BF-ACFF-9891C6422853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209E6A53-FF24-42BF-ACFF-9891C6422853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209E6A53-FF24-42BF-ACFF-9891C6422853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
