@@ -1,3 +1,5 @@
 # AutoMapper Test
 
-Testing AutoMapper to see the good and the bad.
+Testing AutoMapper and trying to highlight the things I like and what I don't like.
+
+Each individual project has something to say about AutoMapper
