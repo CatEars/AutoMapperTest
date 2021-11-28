@@ -2,11 +2,19 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest", "AutoMapperTest\AutoMapperTest.csproj", "{B43850D1-3687-466F-8539-C4AA6085D22B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.Domain", "AutoMapperTest.Domain\AutoMapperTest.Domain.csproj", "{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.ApiDomainDifference", "AutoMapperTest.ApiDomainDifference\AutoMapperTest.ApiDomainDifference.csproj", "{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.Dto", "AutoMapperTest.Dto\AutoMapperTest.Dto.csproj", "{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.ApiDomainDifference.Test", "AutoMapperTest.ApiDomainDifference.Test\AutoMapperTest.ApiDomainDifference.Test.csproj", "{209E6A53-FF24-42BF-ACFF-9891C6422853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.Test", "AutoMapperTest.Test\AutoMapperTest.Test.csproj", "{209E6A53-FF24-42BF-ACFF-9891C6422853}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.ConvertCircle", "AutoMapperTest.ConvertCircle\AutoMapperTest.ConvertCircle.csproj", "{5EE8D47F-481F-44B0-941E-0D40CB2D1920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.MultiMapping", "AutoMapperTest.MultiMapping\AutoMapperTest.MultiMapping.csproj", "{17EFBE71-0267-465F-AA7E-166EC399D233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.HiddenUsage", "AutoMapperTest.HiddenUsage\AutoMapperTest.HiddenUsage.csproj", "{1C31261C-6DA7-4BB1-A8A9-63D2C0F36251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.TypeSafety", "AutoMapperTest.TypeSafety\AutoMapperTest.TypeSafety.csproj", "{4E132A50-0FD1-4945-A4AF-16B3100784AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest.Naive", "AutoMapperTest.Naive\AutoMapperTest.Naive.csproj", "{32ED42E4-64BE-4EC6-8001-5FDC7A3F2D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +26,6 @@ Global
 		{B43850D1-3687-466F-8539-C4AA6085D22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B43850D1-3687-466F-8539-C4AA6085D22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B43850D1-3687-466F-8539-C4AA6085D22B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{751EA9AE-0154-48ED-AAB7-B229EAC5FE58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20CEB1F7-96C2-4E18-906D-27EA7F6F2462}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,5 +34,25 @@ Global
 		{209E6A53-FF24-42BF-ACFF-9891C6422853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209E6A53-FF24-42BF-ACFF-9891C6422853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209E6A53-FF24-42BF-ACFF-9891C6422853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE8D47F-481F-44B0-941E-0D40CB2D1920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE8D47F-481F-44B0-941E-0D40CB2D1920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE8D47F-481F-44B0-941E-0D40CB2D1920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE8D47F-481F-44B0-941E-0D40CB2D1920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EFBE71-0267-465F-AA7E-166EC399D233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EFBE71-0267-465F-AA7E-166EC399D233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EFBE71-0267-465F-AA7E-166EC399D233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EFBE71-0267-465F-AA7E-166EC399D233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C31261C-6DA7-4BB1-A8A9-63D2C0F36251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C31261C-6DA7-4BB1-A8A9-63D2C0F36251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C31261C-6DA7-4BB1-A8A9-63D2C0F36251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C31261C-6DA7-4BB1-A8A9-63D2C0F36251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E132A50-0FD1-4945-A4AF-16B3100784AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E132A50-0FD1-4945-A4AF-16B3100784AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E132A50-0FD1-4945-A4AF-16B3100784AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E132A50-0FD1-4945-A4AF-16B3100784AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ED42E4-64BE-4EC6-8001-5FDC7A3F2D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ED42E4-64BE-4EC6-8001-5FDC7A3F2D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ED42E4-64BE-4EC6-8001-5FDC7A3F2D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ED42E4-64BE-4EC6-8001-5FDC7A3F2D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
