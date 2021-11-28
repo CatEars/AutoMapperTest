@@ -6,8 +6,7 @@ it is far from type safe.
 There is no way to guard yourself against sending in an object with the wrong type to `mapper.Map()`.
 
 AutoMapper will happily try to convert whatever you throw at it, with no guarantee that it will actually
-be able to convert it into something sensible. Consider the case where the type of a returned object
-is far apart from the AutoMapper conversion. Such a case would be neigh impossible to track down.
+be able to convert it into something sensible.
 
 The "naive" solution would produce a compilation error in this case, since the compiler cares about types.
-AutoMapper does not...
+AutoMapper always converts to `object`...
